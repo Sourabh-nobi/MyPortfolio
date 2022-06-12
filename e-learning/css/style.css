@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../font/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../font/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+}
+h2,h3{
+    font-family: Montserrat-SemiBold;
+}
+h1,h4,h5{
+    font-family: Montserrat-Bold;
+}
+p{
+    font-family: Montserrat-Medium;
+}
+/* custom-scrollbar-chromeuser-because-firefox-browser-not-working */
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #858bfd;
+    border-radius: 10px;
+}
+
+/* background */
+#navbar{
+    background-image: url(../img/bg.jpg);
+    height: 755px;
+    background-size: cover;
+    
+}
+/* main-image */
+.main img{
+    position: absolute;
+    width: 550px;
+margin-left: 693px;
+margin-top: 159px;
+}
+
+/* logo */
+.logo img{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+/* heading */
+.heading a{
+    text-decoration: none;
+    width: 330px;
+    height: 29px;
+    display: inline-block;
+}
+
+.heading a h2{
+    font-size: 35px;
+margin-left: 50px;
+margin-top: 80px;
+color: black;
+text-decoration: underline;
+
+}
+.heading a h2:hover{
+    font-size: 35px;
+margin-left: 50px;
+margin-top: 80px;
+color: #858bfd;
+text-decoration: underline;
+
+}
+.heading h1{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+/* subheading */
+.subheading{
+    margin-left: 50px;
+}
+.subheading a{
+    text-decoration: none;
+    width: 188px;
+height: 36px;
+    display: inline-block;
+}
+
+.subheading a h2{
+    margin-top: 10px;
+    text-decoration-line: underline;
+    color: black;
+    width: 190px;
+}
+.subheading a h2:hover{
+    margin-top: 10px;
+    text-decoration-line: underline;
+    color: #858bfd;
+    width: 190px;
+}
+.subheading p{
+    margin-top: 5px;
+    font-size: 15px;
+    width: 356px;
+    padding-bottom: 50px;
+}
+
+/* key-feature-image */
+#images{
+    display: flex;
+}
+.monitor img{
+    width: 130px;
+height: 100px;
+    padding-left: 50px;
+    
+}
+.idea img{
+    width: 130px;
+height: 100px;
+    padding-left: 50px;
+    
+}
+.e-learn img{
+    width: 130px;
+    height: 100px;
+    padding-left: 55px;
+    
+}
+
+/* key-feature-heading */
+#imgheadin {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+.imgheading{
+    margin-left: 50px;
+    
+}
+.imgheading a{
+    text-decoration: none;
+    width: 131.483px;
+    height: 23px;
+    
+}
+
+.imgheading a h3{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+.imgheading a h3:hover{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #858bfd;
+    font-size: 15px;
+}
+
+.imgheading1{
+    margin-left: 68px;
+}
+.imgheading1 a{
+    text-decoration: none;
+    
+}
+.imgheading1 a h3{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+.imgheading1 a h3:hover{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #858bfd;
+    font-size: 15px;
+}
+
+.imgheading2{
+    margin-left: 65px;
+}
+.imgheading2 a{
+    text-decoration: none;
+}
+.imgheading2 a h3{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+.imgheading2 a h3:hover{
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #858bfd;
+    font-size: 15px;
+}
+
+/* social-icon */
+.social-icon{
+    margin-left: 1140px;
+}
+.social-icon img{
+    width: 30px;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.social-icon img:hover{
+    width: 30px;
+    margin-top: 30px;
+    background-color: #858bfd;
+    border-radius: 30px;
+    margin-left: 10px;
+   
+}
+/* website */
+.website{
+    margin-left: 1061px;
+}
+.website a{
+    text-decoration: none;
+}
+.website a h1{
+    color: black;
+font-size: 15px;
+line-height: 1;
+letter-spacing: 0.32em;
+padding-top: 10px;
+}
+.website a h1:hover{
+    color: #858bfd;
+font-size: 15px;
+line-height: 1;
+letter-spacing: 0.32em;
+padding-top: 10px;
+}
+
+
